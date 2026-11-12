@@ -1,0 +1,5 @@
+Original mod: more-quality-uses
+Original author: Maya_XTG
+Original release: https://mods.factorio.com/mod/more-quality-uses
+Compatibility fork: https://github.com/FactorioMods/more-quality-uses-updated
+Original source credits and licenses remain applicable.

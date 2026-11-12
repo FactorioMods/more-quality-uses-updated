@@ -1,0 +1,8 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2026-11-12
+  Compatibility:
+    - Supports Factorio 2.1 with the original gameplay, prototype names and settings.
+    - metadata Factorio2.1 minimum base2.1.24
+    - Preserve former wagon speed limit1.5 when2.1 vanilla omits max_speed (official wube2.0.77 source verified)
+    - Fix cargo wagon placeable_by quality variable qname

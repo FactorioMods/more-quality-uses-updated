@@ -1,3 +1,7 @@
+Factorio 2.1.24 compatibility fork of [more-quality-uses](https://mods.factorio.com/mod/more-quality-uses) by Maya_XTG. [Fork source on GitHub](https://github.com/FactorioMods/more-quality-uses-updated). Original gameplay settings and prototype identities are retained. Replace the original mod with this fork; they cannot be enabled together.
+
+Existing-save loading and two 1,200-tick headless consistency runs completed with this fork enabled.
+
 # More Quality Uses
 
 Adds configurable quality changes to Locomotives, Wagons, Storage Tanks and (possibly) more!

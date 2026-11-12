@@ -11,7 +11,7 @@ data:extend{
         name = "mqu-qualitised-entities",
         order = "zzz",
         icon = "__core__/graphics/icons/any-quality.png",
-        icon_size = 128,
+        icon_size = 64,
         hidden = true
     },
     {
@@ -30,10 +30,10 @@ if settings.startup["mqu-cargo-wagon-changes"].value then
         wagon.subgroup = "mqu-qualitised-entities-sub"
         wagon.localised_name = {"entity-name.cargo-wagon"}
         wagon.localised_description = {"entity-description.cargo-wagon"}
-        wagon.placeable_by = {item="cargo-wagon", count=1, quality=k}
+        wagon.placeable_by = {item="cargo-wagon", count=1, quality=qname}
         
         wagon.inventory_size = wagon.inventory_size * qvalue
-        wagon.max_speed = wagon.max_speed * qvalue
+        wagon.max_speed = (wagon.max_speed or 1.5) * qvalue
 
         data:extend{wagon}
     end
@@ -49,7 +49,7 @@ if settings.startup["mqu-fluid-wagon-changes"].value then
         wagon.placeable_by = {item="fluid-wagon", count=1, quality=qname}
 
         wagon.capacity = wagon.capacity * qvalue
-        wagon.max_speed = wagon.max_speed * qvalue
+        wagon.max_speed = (wagon.max_speed or 1.5) * qvalue
 
         data:extend{wagon}
     end
@@ -95,7 +95,7 @@ if settings.startup["mqu-artillery-wagon-changes"].value then
         wagon.localised_description = {"entity-description.artillery-wagon"}
         wagon.placeable_by = {item="artillery-wagon", count=1, quality=qname}
 
-        wagon.max_speed = wagon.max_speed * qvalue
+        wagon.max_speed = (wagon.max_speed or 1.5) * qvalue
 
         data:extend{wagon}
     end

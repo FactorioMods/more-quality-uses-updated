@@ -1,9 +1,18 @@
 {
-    "author": "Maya_XTG",
-    "dependencies": ["base >= 2.0", "quality >= 2.0", "? space-age >= 2.0"],
-    "description": "Gives more buildings upgrades with Quality.",
-    "factorio_version": "2.0",
-    "name": "more-quality-uses",
-    "title": "More Quality Uses",
-    "version": "1.0.0"
+  "author": "Maya_XTG",
+  "dependencies": [
+    "base >= 2.1.24",
+    "quality >= 2.0",
+    "? space-age >= 2.0",
+    "! more-quality-uses"
+  ],
+  "description": "Gives more buildings upgrades with Quality. Updated for Factorio 2.1; retains original prototype and setting names.",
+  "factorio_version": "2.1",
+  "name": "more-quality-uses-updated",
+  "title": "More Quality Uses: Updated",
+  "version": "1.0.1",
+  "homepage": "https://github.com/FactorioMods/more-quality-uses-updated",
+  "migrates_from": [
+    "more-quality-uses"
+  ]
 }
